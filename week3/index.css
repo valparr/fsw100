@@ -1,0 +1,38 @@
+h1 {
+ color: darkgreen;
+ text-align: center;
+ font-family: Georgia; 
+}
+
+h2 {
+    text-align: center;
+    font-family: Georgia;
+}
+
+.inallcaps {
+     text-transform: uppercase;   
+ }
+
+#link {
+     text-decoration: none; }
+
+#link:link {
+    text-decoration: none;
+}
+#link:visited {
+    text-decoration: none;
+}
+#link:hover {
+    text-decoration: underline;
+}
+#link:active {
+    text-decoration: underline;
+}
+img {
+     float: left;
+     padding: 20px 25px 25px 25px;
+ }
+background-color {
+    color: #fffef5;
+}
+ 
