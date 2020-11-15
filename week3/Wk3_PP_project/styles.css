@@ -1,0 +1,70 @@
+#header {
+    color: blue;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    width: 25%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    font-weight: 700;
+    font-family: Arial;
+}
+
+td {
+    text-align: left;
+    font-weight: lighter;
+    font-family: Arial;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    color: white;
+}
+
+li {
+    display: inline;
+    font-family: Arial;
+
+   
+}
+
+aside {
+    width: 40%;
+    padding-left: 17px;
+    margin-left: 15px;
+    color: white;
+    float: right;
+    font-style: bold;
+    background-color: coral;
+    text-align: left;
+  }
+
+.allbrowsers {
+    margin: 0;
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+.all-browsers > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .browser {
+    background: white;
+  }
+  
+  .browser > h2, p {
+    margin: 4px;
+    font-size: 90%;
+  }
