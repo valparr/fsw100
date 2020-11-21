@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.pink, .magenta, .aquablue, .green, .orange {
+    float: left;
+    height: 100px;
+    padding: 15px;
+    border: 4px solid #ffffff;
+
+}
+
+.pink {
+    background-color: #F5C6D6;
+    width: 100%;
+}
+
+.magenta {
+    background-color:#EE2E84;
+    width: 25%;
+}
+
+.aquablue {
+    background-color: #85CFD8;
+    width: 50%;
+}
+
+.green {
+    background-color: #8DC63F;
+    width: 74%;
+}
+
+.orange {
+    background-color: #E76E34;
+    width: 26%;
+}
+
+/*Large Screens*/
+
+@media only screen and (max-width: 768px) {
+    .pink, .magenta, .aquablue, .green, .orange {
+        width: 100%;
+    }
+}
+
