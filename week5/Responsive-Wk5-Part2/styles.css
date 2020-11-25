@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* I am having trouble figuring out how many columns and rows my grid should have 
+also how do I  incorporate them in my CSS styling? */
+
+#grid-container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(6, 1fr);
+    
+    
+}
+
+#grid-container > div {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#red {
+    background-color: #DB4437;
+    grid-column: 1 / 6;
+   
+}
+#blue {
+    background-color: #4285F4;
+    grid-column: 1 / 6;
+    grid-row: 2 / 6;
+    
+}
+ #green {
+    background-color: #0F9D58;
+    grid-column: 1 / 6;
+}
+
+ #darkpink {
+    background-color: #C13584;
+    grid-column: 2 / 6;
+}
+
+#yellow {
+    background-color: #F4B400;
+    color: black;
+    grid-column: 1 / 6;
+   
+    
+}
+
+/* if media queries are used on this project, i am having trouble figuring out how to 
+use them. Can you please help me?
